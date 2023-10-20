@@ -1,0 +1,58 @@
+Git Lab Tutorials completed 10.17.2023 and 10.19.2023
+GitHub account created 02.24.2023.
+
+1. Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 615 bytes | 615.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/caitlinmariegrimes/cen4020assignment2.git
+   f4975e5..a4e02b9  master -> master
+
+2. 8 commits found using the command "git log"
+
+3. Wed Sep 25 18:33:08 2019 -0400; found using the command "git log README.md"
+
+4. Branching allows multiple features or updates to the codebase to be developed
+simultaneously with changes to one branch not impacting the other branches until
+they are merged.
+
+5. git status shows the current state of the repository while git log shows
+snapshots of the history of the repository. 
+
+6. git log -- Vehicle.h
+
+7. git log --grep="file"
+
+8.
+  i.   Inheritance occurs when the derived or "child" class inherits the member
+       variables or functions of the base or "parent" class. 
+  ii.  Polymorphism occurs when functions are overloaded or overridden such that
+       an object must decide which function definition to implement.
+  iii. Encapsulation is a method of information-hiding that utilizes access
+       modifiers to restrict access to member variables and functions of a class
+       such that those member variables and functions are either 
+       -  private (only accessible within the current class),
+       -  protected (accessible within the current class, by all classes within 
+          the current package, and by subclasses of the current class within 
+          other packages), or
+       -  public (accessible to the current class and all other classes).
+
+9. The Dictator and Lieutenants workflow is similar to the Integration Manager
+   workflow but includes an additional level of oversite. The Lieutenants are
+   similar to integration managers to which most developers report, and the
+   dictator is the integration manager over all the other integration managers
+   (aka. Lieutenants).
+
+10. The Dictator and Lieutenants workflow is better suited to large projects than
+    the Centralized workflow because it incorporates more structure and oversight.
+    A team of 100 developers would benefit from the Dictator and Lieutenants
+    workflow over the Centralized workflow. With the former, each individual is
+    pulling and pushing from one shared repository that would likely get very
+    hard to manage very quickly. With the latter, they instead pull changes from 
+    a centrally managed respository and push their changes to their "lieutenants" 
+    for review and conflict resolution. The lieutenants push their code to the
+    overarching dictator for final review and merge to the central repository. The
+    additional oversight and structure enables more efficient development. 
